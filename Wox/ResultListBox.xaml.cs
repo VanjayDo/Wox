@@ -22,7 +22,7 @@ namespace Wox
 
         private void OnMouseEnter(object sender, MouseEventArgs e)
         {
-            ((ListBoxItem) sender).IsSelected = true;
+            ((ListBoxItem) sender).IsSelected = false;
         }
     }
 }
